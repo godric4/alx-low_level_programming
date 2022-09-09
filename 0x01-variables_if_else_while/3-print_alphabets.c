@@ -21,3 +21,4 @@ B++;
 }
 putchar (10);
 return (0);
+}
