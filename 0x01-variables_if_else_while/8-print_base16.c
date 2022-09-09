@@ -1,12 +1,12 @@
 #include <stdio.h>
 /**
- *  * main - entry point
- *   * display numbers
- *    * Return: 0 success
- *     */
+ * main - entry point
+ * display numbers
+ * Return: 0 success
+ */
 int main(void)
 {
-char hex
+char hex;
 for (hex = 48; hex <= 57; hex++)
 {
 putchar(putchar(hex);
