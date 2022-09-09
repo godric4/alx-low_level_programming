@@ -15,15 +15,15 @@ n = rand() - RAND_MAX / 2;
 /* your code goes there */
 if (n == 0)
 {
-printf("%d will be zero\n", n);
+printf("%i will be zero\n", n);
 }
 else if (n < 0)
 {
-printf("%d will be negative\n", n);
+printf("%i will be negative\n", n);
 }
 else
 {
-printf("%d will be positive\n", n);
+printf("%i will be positive\n", n);
 }
 return (0);
 }
