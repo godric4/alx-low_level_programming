@@ -6,12 +6,13 @@
  */
 int main(void)
 {
+int hexint;
 char hex;
-for (hex = 48; hex <= 57; hex++)
+for (hexint = 48; hexint < 58; hexint++)
 {
-putchar(putchar(hex));
+putchar(hexint);
 }
-for (hex = 97; hex <= 102; hex++)
+for (hex = 'a'; hex <= 'f'; hex++)
 {
 putchar(hex);
 }
