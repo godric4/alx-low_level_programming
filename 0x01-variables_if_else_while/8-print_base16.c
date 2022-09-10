@@ -1,22 +1,22 @@
 #include <stdio.h>
+
 /**
- * main - entry point
- * display numbers
- * Return: 0 success
+ * main - entrypoin
+ * display by a new line
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-int hexint;
-/*char hex; */
-for (hexint = 48; hexint < 58; hexint++)
+int n;
+char ch;
+for (n = 48; n < 58; n++)
 {
-putchar(hexint);
+putchar(n);
 }
-/*for (hex = 'a'; hex <= 'f'; hex++)
+for (ch = 'a'; ch <= 'f'; ch++)
 {
-putchar(hex);
-}*/
+putchar(ch);
+}
 putchar('\n');
-
 return (0);
 }
