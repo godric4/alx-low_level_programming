@@ -2,11 +2,11 @@
 
 void print_alphabet(void)
 {
-char i =  'a';
-while (i <= 'z')
+char c =  'a';
+while (c <= 'z')
 {
-putchar(i);
-i++;
+_putchar(i);
+c++;
 }
-putchar('\n');
+_putchar('\n');
 }
