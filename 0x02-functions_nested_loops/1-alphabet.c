@@ -3,9 +3,7 @@
 void print_alphabet(void)
 {
 char i =  'a';
-char j = 'z';
-
-while (i <= j)
+while (i <= 'z')
 {
 _putchar(i);
 i++;
