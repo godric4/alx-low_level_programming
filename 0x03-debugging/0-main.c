@@ -15,6 +15,5 @@ int main(void)
 	 * Positvity and negativity of a value is all defined by zero
 	 */
 	positive_or_negative(i);
-
 	return (0);
 }
