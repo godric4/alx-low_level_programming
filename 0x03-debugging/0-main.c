@@ -9,7 +9,11 @@ int main(void)
 {
 	int i;
 
-	i = 98;
+	i = 0;
+	/**
+	 * In programming, zero is neither positive nor negative
+	 * Positvity and negativity of a value is all defined by zero
+	 */
 	positive_or_negative(i);
 
 	return (0);
