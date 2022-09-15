@@ -7,13 +7,11 @@
 
 int main(void)
 {
-	int i;
+int i;
 
-	i = 0;
-	/**
-	 * In programming, zero is neither positive nor negative
-	 * Positvity and negativity of a value is all defined by zero
-	 */
-	positive_or_negative(i);
-	return (0);
+i = 0;
+/*Positvity and negativity of a value is all defined by zero*/
+positive_or_negative(i);
+
+return (0);
 }
