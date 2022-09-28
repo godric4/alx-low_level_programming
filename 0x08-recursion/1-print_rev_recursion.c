@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _print_rev_recursion - reverse recursive function 
+ * _print_rev_recursion - reverse recursive function
  * that prints a string
  * @s: string to print
  */
