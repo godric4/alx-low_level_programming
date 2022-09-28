@@ -14,6 +14,6 @@ if (*s != '\0')
 _putchar('\n');
 return;
 }
- _putchar('\n');
+_putchar('\n');
 _puts_recursion(s - 1);
 }
