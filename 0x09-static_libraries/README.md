@@ -1,0 +1,1 @@
+Static Linraries in c
