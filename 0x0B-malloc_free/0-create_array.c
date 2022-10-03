@@ -17,5 +17,14 @@ mem_alloc = malloc(size * sizeof(char));
 for (i = 0; i < size; i++)
 mem_alloc[i] = c;
 mem_alloc[i] = 0;
-return (size < 1 ? 0 : mem_alloc);
+
+if (size < 1)
+{
+ return 0
+}
+else
+{
+ return mem_alloc;
+}
+
 }
