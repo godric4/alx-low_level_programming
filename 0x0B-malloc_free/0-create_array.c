@@ -20,7 +20,7 @@ mem_alloc[i] = 0;
 
 if (size < 1)
 {
- return 0
+ return 0;
 }
 else
 {
