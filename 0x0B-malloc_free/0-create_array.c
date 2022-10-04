@@ -18,13 +18,10 @@ for (i = 0; i < size; i++)
 mem_alloc[i] = c;
 mem_alloc[i] = 0;
 
-if (size < 1)
-{
- return 0;
-}
-else
-{
- return mem_alloc;
-}
+return (mem_alloc);
 
+if (mem_alloc == NULL && size == NULL)
+{
+return (NULL);
+}
 }
