@@ -13,7 +13,7 @@ char *create_array(unsigned int size, char c)
 char *mem_alloc;
 unsigned int i;
 
-mem_alloc = malloc(size * sizeof(char));
+mem_alloc = malloc(size * sizeof(c));
 for (i = 0; i < size; i++)
 mem_alloc[i] = c;
 mem_alloc[i] = 0;
