@@ -13,19 +13,21 @@ char *create_array(unsigned int size, char c)
 char *mem_alloc;
 unsigned int i;
 
+if (mem_alloc == NULL)
+{
+return (NULL);
+}
+if (mem_alloc == NULL)
+{
+return (NULL);
+}
+
 mem_alloc = malloc(size * sizeof(c));
+
 for (i = 0; i < size; i++)
+
 mem_alloc[i] = c;
 
 return (mem_alloc);
-
-if (mem_alloc == NULL)
-{
-return (NULL);
-}
-if (mem_alloc == NULL)
-{
-return (NULL);
-}
 }
 
