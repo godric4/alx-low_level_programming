@@ -20,8 +20,13 @@ mem_alloc[i] = 0;
 
 return (mem_alloc);
 
-if (mem_alloc == NULL && size == NULL)
+if (mem_alloc == NULL)
+{
+return (NULL);
+}
+if (mem_alloc == NULL)
 {
 return (NULL);
 }
 }
+
