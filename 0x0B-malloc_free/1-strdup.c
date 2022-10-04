@@ -11,15 +11,16 @@
 char *_strdup(char *str)
 {
 char *new_mem_alloc;
-unsigned int i, j;
+unsigned int i;
+unsigned int j;
+
 
 if (str == NULL)
 return (NULL);
 
-for (i = 0; str[i] !== '\0'; i++)
-new_mem_alloc = ((i + 1) * char * malloc(sizeof(char));
-	
-if (new_mem_alloc == NULL)
+for (i = 0; str[i] != '\0'; i++)
+new_mem_alloc = ((i + 1) * (char *)malloc(sizeof(char));
+	if (new_mem_alloc == NULL)
 return (NULL);
  
 for (j = 0; str[j] !== '\0'; j++)
