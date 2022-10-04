@@ -16,18 +16,22 @@ unsigned int j;
 
 
 if (str == NULL)
+
 return (NULL);
 
-for (i = 0; str[i] != '\0'; i++)
-new_mem_alloc = (char *)malloc(sizeof(char)* (i +1));
-	
+for (i = 0; str[i] != '\0'; i++);
+		;
+new_mem_alloc = (char *)malloc(sizeof(char) * (i + 1));
+
 if (new_mem_alloc == NULL)
+
 return (NULL);
- 
-for (j = 0; str[j] <= 1; j++)
+
+for (j = 0; j <= i; j++)
 {
-new_mem_alloc[j] = str [j]
+new_mem_alloc[j] = str[j];
 }
- 
- return (new_mem_alloc);
+return (new_mem_alloc);
+
 }
+
