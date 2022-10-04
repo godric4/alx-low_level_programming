@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * free_grid - frees grid allocated memory 
+ * free_grid - frees grid allocated memory
  * @grid: grid to be freed
  * @height: height of the grid
  */
