@@ -19,7 +19,8 @@ if (str == NULL)
 
 return (NULL);
 
-for (i = 0; str[i] != '\0'; i++);
+for (i = 0; str[i] != '\0'; i++)
+	;
 		;
 new_mem_alloc = (char *)malloc(sizeof(char) * (i + 1));
 
