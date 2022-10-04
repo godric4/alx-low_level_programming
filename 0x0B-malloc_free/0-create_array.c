@@ -18,12 +18,12 @@ if (size == 0)
 return (NULL);
 }
 
+mem_alloc = malloc(size * sizeof(c));
+
 if (mem_alloc == NULL)
 {
 return (NULL);
 }
-
-mem_alloc = malloc(size * sizeof(c));
 
 for (i = 0; i < size; i++)
 
