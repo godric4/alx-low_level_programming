@@ -16,7 +16,6 @@ unsigned int i;
 mem_alloc = malloc(size * sizeof(c));
 for (i = 0; i < size; i++)
 mem_alloc[i] = c;
-mem_alloc[i] = 0;
 
 return (mem_alloc);
 
