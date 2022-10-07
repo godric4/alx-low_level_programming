@@ -30,18 +30,18 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	if (!ptr1)
 		return (NULL);
 
-	ptr2
+	ptr2;
 
 	if (new_size < old_size)
 	{
 		for (i = 0; i < new_size; i++)
-			ptr1[i] = ptr2
+			ptr1[i] = ptr2;
 	}
 
 	if (new_size > old_size)
 	{
 		for (i = 0; i < old_size; i++)
-			ptr1[i] = ptr2
+			ptr1[i] = ptr2;
 	}
 
 	free(ptr);
