@@ -1,24 +1,23 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include "lists.h"
-
-/**
- * list_len - computes the length of the liked list..
- * @h: a pointer to the list to iterato to.
- * Return: the number of nodes
- */
-size_t list_len(const list_t *h)
-{
-	const list_t *tmp;
-	size_t i = 0;
-
-	tmp = h;
-	if (tmp)
-		tmp = h;
-	while (tmp)
-	{
-		i++;
-		tmp = tmp->next;
-	}
-	return (i);
-}
+#include "lists.h" 
+ /** 
+  * print_list - prints all the elements of a list_t list. 
+  * @h: singly linked list. 
+  * Return: number of elements in the list. 
+  */ 
+  
+ size_t print_list(const list_t *h) 
+ { 
+         size_t nelem; 
+  
+         nelem = 0; 
+         while (h != NULL) 
+         { 
+                 if (h->str == NULL) 
+                         printf("[%d] %s\n", 0, "(nil)"); 
+                 else 
+                         printf("[%d] %s\n", h->len, h->str); 
+                 h = h->next; 
+                 nelem++; 
+         } 
+         return (nelem); 
+ }
